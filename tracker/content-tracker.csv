@@ -1,0 +1,13 @@
+id,type,topic_id,title,level,pillar,series,status,script_date,checked_on,record_date,publish_date,youtube_url,post_en_url,post_te_url,views_48h,ctr_48h,avg_view_pct_48h,notes
+EP001,long,AI-B-01,"What is AI, ChatGPT, Gemini and Claude? (Telugu)",Basic,AI,S1,idea,,,,2026-12-12,,,,,,,pilot
+EP002,long,NET-B-01,7 UPI scams and how to stay safe,Basic,Internet,S2,idea,,,,2026-12-19,,,,,,,pilot; official sources only
+EP003,long,MOB-B-01,Phone storage full? Free 5-10 GB safely,Basic,Mobile,S3,idea,,,,2026-12-26,,,,,,,pilot
+EP004,long,PC-B-01,20 Windows shortcuts everyone should know,Basic,PC,S4,idea,,,,2027-01-02,,,,,,,
+EP005,long,AI-B-02,"Write a leave letter, resume or application with AI",Basic,AI,S1,idea,,,,2027-01-09,,,,,,,
+EP006,long,MOB-B-06,Set up a new phone and move everything,Basic,Mobile,S3,idea,,,,2027-01-16,,,,,,,Sankranti week
+EP007,long,PC-I-02,Bootable USB with Rufus and Ventoy,Intermediate,PC,S5,idea,,,,2027-01-23,,,,,,,
+EP008,long,NET-B-03,Report cyber fraud: 1930 and cybercrime.gov.in,Basic,Internet,S2,idea,,,,2027-01-30,,,,,,,official sources only
+EP009,long,AI-B-05,Free AI tools for students,Basic,AI,S1,idea,,,,2027-02-06,,,,,,,update existing AIH post
+EP010,long,PC-I-04,Send files phone to PC with no cable (LocalSend),Intermediate,PC,S5,idea,,,,2027-02-13,,,,,,,
+EP011,long,MOB-B-03,Scan documents to PDF and compress for uploads,Basic,Mobile,S3,idea,,,,2027-02-20,,,,,,,with PC-B-04
+EP012,long,AI-A-01,Run AI on your own PC with Ollama,Advanced,AI,S6,idea,,,,2027-02-27,,,,,,,state PC specs
