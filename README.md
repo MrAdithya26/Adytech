@@ -29,7 +29,7 @@ WEEKLY REVIEW: <numbers>      → what worked, next week's topic
 
 ## Related
 - ABD controller status file: [MrAdithya26/ABD-Innovations › projects/ADYTECH.md](https://github.com/MrAdithya26/ABD-Innovations/blob/main/projects/ADYTECH.md)
-- Google Drive: ABD INNOVATIONS › 06 Tech and AI Services (dated copies of the plan)
+- Google Drive (ABD INNOVATIONS › 06 Tech and AI Services, dated copies): [Implementation Plan v1](https://docs.google.com/document/d/18-42EMviYrX1-6QlboVN_W_8IqsklYu4O6a-8-cLHXk) · [Content kit v1](https://docs.google.com/document/d/16yYiIhG2xh1VfyVOkwwnfcknYopyiTJL63LVaO2-Ng8) · [Status and plan v2](https://docs.google.com/document/d/1frWXey-4A9LiTeKqZSmL5QWsoY-xh-KlBrx_eFCF8D0) · [Drive index v5](https://docs.google.com/document/d/1i_eOrJQr-b9FJXta50qfk9nf7PGyScQUBt2B2POPC8g)
 
 ## Rules
 Nothing in this repo, Drive, Docs or Sheets is ever deleted; every update is a new commit and a CHANGELOG line, with a dated copy in Drive. See [CLAUDE.md](CLAUDE.md).
