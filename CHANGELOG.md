@@ -14,7 +14,7 @@ Every change, newest first, in plain English. Nothing is deleted; old versions s
 - **New:** `apps/README.md`, `archive/README.md` (empty folders ready for use).
 - **Changed:** `README.md` – before: no storage section; now: links to the new files and a "Where everything is kept" table. `CLAUDE.md` – before: 4 standing rules; now: rule 5 (three places, one layout) and the new folders in Layout. `docs/DECISIONS.md` – new decided row for 4 Nov.
 - **Local folder:** first full copy written to `D:\ABD Innovations\Adygeeks` + `_versions/Adytech_v0.2.0_2026-11-04.zip`. The 9 starter folders made earlier today (00_Planning … 99_Assets, README only) are left in place, waiting for Adithya's OK to move them to `archive`.
-- **Drive:** new folder "Adytech (Adygeeks) – Project" in 06 Tech and AI Services, with `Versions › v0.2.0 – 2026-11-04` (Google Doc/Sheet copies of every file) and an index doc. Earlier Drive docs unchanged.
+- **Drive:** new folder [Adytech (Adygeeks) – Project](https://drive.google.com/drive/folders/1P9QO2DEM7gRzVjiJ03qyJNdWB0x7Rs1W) in 06 Tech and AI Services, with [Versions › v0.2.0 – 2026-11-04](https://drive.google.com/drive/folders/1j00mTy-o__lAZLgQOHtWKPSdEKSLF0hq): Google Docs of the rules and storage pack (README, CLAUDE, STORAGE-AND-VERSIONING, DECISIONS, CHANGELOG, CHAT-LOG), the 2 Nov guide, templates and SOPs, and the tracker as a Google Sheet; plus an index doc in the project folder. The plan and content kit did not change, so their Drive copies remain the 31 Oct v1 docs. Earlier Drive docs unchanged.
 - **Removed:** nothing.
 
 ---

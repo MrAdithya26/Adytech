@@ -11,7 +11,7 @@ Everything for Adytech (plans, documents, scripts, guides, research, apps, code,
 | --- | --- | --- | --- |
 | 1 | **GitHub (master copy)** | [github.com/MrAdithya26/Adytech](https://github.com/MrAdithya26/Adytech) | Full history: every change, who/when/why, any old version can be opened |
 | 2 | **Local folder (your PC)** | `D:\ABD Innovations\Adygeeks` | Working offline, recording, opening files quickly |
-| 3 | **Google Drive** | ABD INNOVATIONS › 06 Tech and AI Services › **Adytech (Adygeeks) – Project** | Reading on phone, sharing with the team, big media files |
+| 3 | **Google Drive** | [ABD INNOVATIONS › 06 Tech and AI Services › **Adytech (Adygeeks) – Project**](https://drive.google.com/drive/folders/1P9QO2DEM7gRzVjiJ03qyJNdWB0x7Rs1W) | Reading on phone, sharing with the team, big media files |
 
 GitHub is the **master**. If the three ever disagree, the GitHub version wins; the other two are copies of it.
 
