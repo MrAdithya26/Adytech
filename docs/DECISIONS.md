@@ -5,6 +5,7 @@ If a plan disagrees with this file or with the ABD decisions log in Drive, the d
 ## Decided
 | Date | Decision | Source |
 | --- | --- | --- |
+| 4 Nov 2026 | All Adytech data (chats, plans, docs, apps, repos) is kept in three places – GitHub (master), PC folder `D:\ABD Innovations\Adygeeks`, Google Drive – with version numbers and tags; see `docs/STORAGE-AND-VERSIONING.md` | Adithya, this project |
 | 31 Oct 2026 | The tech content lives at adithyainfohub.com/tech (redirects to /tech-ai/), called "Adytech" for now | Adithya, this project |
 | 31 Oct 2026 | Tech content is a section/series inside Adithya Info Hub; "Adygeek" proposed to replace "Adytech" as the public name | Registration Plan (Drive) |
 | 31 Oct 2026 | Paid tech services (websites, chatbots) are a separate brand at tech.agservices.in, name open | 2030 Execution Plan, conflict #4 fix |

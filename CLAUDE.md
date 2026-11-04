@@ -21,7 +21,8 @@
 2. Log every change in `CHANGELOG.md`: date, what it was before, what it is now, what was removed (and where the old copy is), why.
 3. Every update, plan and decision goes to BOTH GitHub and Google Drive (ABD INNOVATIONS › 06 Tech and AI Services), and a status line goes to `MrAdithya26/ABD-Innovations › projects/ADYTECH.md`.
 4. Tell Adithya about every change, however small.
+5. (Added 4 Nov 2026) **Three places, one layout.** Everything for Adytech – plans, documents, research, scripts, guides, apps, repos, and the output of every chat, past and future – is stored in all three: GitHub `MrAdithya26/Adytech` (master), the local project folder `D:\ABD Innovations\Adygeeks` (Adithya's PC), and Google Drive › ABD INNOVATIONS › 06 Tech and AI Services › Adytech (Adygeeks) – Project. Follow the routine in `docs/STORAGE-AND-VERSIONING.md` §3 on every update: CHANGELOG line, `VERSION` bump, git tag, local copy + `_versions/` zip, new Drive version folder, `chats/CHAT-LOG.md` row.
 
 ## Layout
-- `docs/` plan and decisions · `content/` topic bank, series, calendar · `templates/` · `sop/` · `tracker/` · `episodes/<YYYY-MM-DD>-<topic-id>/`
-- Large media (video, thumbnails PNG) go to Drive, not GitHub.
+- `docs/` plan, decisions, storage and versioning · `content/` topic bank, series, calendar · `research/` dated research · `templates/` · `sop/` · `tracker/` · `episodes/<YYYY-MM-DD>-<topic-id>/` · `apps/<app-name>/` · `chats/CHAT-LOG.md` · `archive/` retired files
+- Large media (video, thumbnails PNG) go to Drive and the local folder, not GitHub.

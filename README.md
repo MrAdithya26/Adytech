@@ -17,6 +17,18 @@ The tech-content arm of ABD Innovations: a YouTube channel (planned) and the Tec
 | [tracker/content-tracker.csv](tracker/content-tracker.csv) | One row per piece of content |
 | [episodes/](episodes/) | One folder per video (scripts, fact-checks, post drafts) |
 | [CHANGELOG.md](CHANGELOG.md) | Every change in plain English |
+| [docs/STORAGE-AND-VERSIONING.md](docs/STORAGE-AND-VERSIONING.md) | Where everything is kept (GitHub · PC folder · Drive) and how versions work |
+| [VERSION](VERSION) | Current version of the project (see Tags for all versions) |
+| [research/](research/) | Dated research, e.g. the 28 free GitHub software guide (2 Nov 2026) |
+| [apps/](apps/) | Apps and tools built for Adytech (none yet) |
+| [chats/CHAT-LOG.md](chats/CHAT-LOG.md) | Every Claude chat: what came out of it and where it is stored |
+
+## Where everything is kept
+| Place | Link |
+| --- | --- |
+| GitHub (master, full history) | [MrAdithya26/Adytech](https://github.com/MrAdithya26/Adytech) |
+| Your PC | `D:\ABD Innovations\Adygeeks` |
+| Google Drive | ABD INNOVATIONS › 06 Tech and AI Services › Adytech (Adygeeks) – Project |
 
 ## Asking Claude (in the "4. ABD - ADYTECH" project)
 ```

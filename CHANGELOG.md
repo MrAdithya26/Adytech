@@ -4,6 +4,21 @@ Every change, newest first, in plain English. Nothing is deleted; old versions s
 
 ---
 
+## 4 Nov 2026 – v0.2.0: storage and versioning system (three places)
+
+- **Why:** Adithya asked that all Adytech data – past chats, future chats, plans, documents, apps, repos – be kept in three places (PC folder, Google Drive, GitHub), with every version clearly stored and easy to follow.
+- **New:** `docs/STORAGE-AND-VERSIONING.md` – the three places, version numbers (vMAJOR.MINOR.PATCH), the update routine, no-delete rule, file naming, folder layout, how to find old versions.
+- **New:** `VERSION` (0.2.0). Git tags added: `v0.1.0` on commit fde3053 (31 Oct plan), `v0.2.0` on this commit.
+- **New:** `chats/CHAT-LOG.md` – the 31 Oct and 2 Nov chats and this one, with links and where their output is stored.
+- **New:** `research/2026-11-02_github-free-software-guide_v1.md` – copy of the 2 Nov Claude Doc "28 Free Software from GitHub — Organised Guide" (previously only in Claude), plus `research/README.md`.
+- **New:** `apps/README.md`, `archive/README.md` (empty folders ready for use).
+- **Changed:** `README.md` – before: no storage section; now: links to the new files and a "Where everything is kept" table. `CLAUDE.md` – before: 4 standing rules; now: rule 5 (three places, one layout) and the new folders in Layout. `docs/DECISIONS.md` – new decided row for 4 Nov.
+- **Local folder:** first full copy written to `D:\ABD Innovations\Adygeeks` + `_versions/Adytech_v0.2.0_2026-11-04.zip`. The 9 starter folders made earlier today (00_Planning … 99_Assets, README only) are left in place, waiting for Adithya's OK to move them to `archive`.
+- **Drive:** new folder "Adytech (Adygeeks) – Project" in 06 Tech and AI Services, with `Versions › v0.2.0 – 2026-11-04` (Google Doc/Sheet copies of every file) and an index doc. Earlier Drive docs unchanged.
+- **Removed:** nothing.
+
+---
+
 ## 31 Oct 2026 – Implementation plan v1 and production kit (first commit)
 
 - **Before:** the repo was empty.
