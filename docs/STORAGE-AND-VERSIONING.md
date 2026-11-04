@@ -26,14 +26,15 @@ Every saved update gets a version number `vMAJOR.MINOR.PATCH`, e.g. `v0.2.0`.
 | PATCH | A small fix to something that already exists: typo, link, date, number | `v0.3.1` = corrected a price |
 
 - The current version is in the file [`VERSION`](../VERSION) at the top of the repo.
-- Each version is a **git tag** on GitHub (open *Tags* or *Releases* on the repo page to see all of them).
+- Each version is one **commit whose title starts with the version**, e.g. `v0.2.0: storage and versioning system`. On GitHub open *Commits* to see them all, newest first.
+- Git **tags** (the *Tags* page) are optional extras: Claude's cloud sessions are not allowed to push tags, so Adithya adds them from the PC when he wants (command in §7).
 - Before 1.0.0 = set-up and pilot phase. `v1.0.0` is reserved for the first public video.
 
 ### Version history so far
-| Version | Date | What |
-| --- | --- | --- |
-| v0.1.0 | 31 Oct 2026 | Implementation plan v1 and production kit (commits 84a5e4e, fde3053) |
-| v0.2.0 | 4 Nov 2026 | Storage and versioning system, chat log, 2 Nov GitHub software guide, local folder and Drive mirror |
+| Version | Date | Commit | What |
+| --- | --- | --- | --- |
+| v0.1.0 | 31 Oct 2026 | fde3053 | Implementation plan v1 and production kit (commits 84a5e4e, fde3053) |
+| v0.2.0 | 4 Nov 2026 | see *Commits* (title starts `v0.2.0:`) | Storage and versioning system, chat log, 2 Nov GitHub software guide, local folder and Drive mirror |
 
 (New rows are added here and in `CHANGELOG.md` with every version.)
 
@@ -41,7 +42,7 @@ Every saved update gets a version number `vMAJOR.MINOR.PATCH`, e.g. `v0.2.0`.
 
 Claude follows these steps every time something is created or changed in this project:
 
-1. **GitHub:** save the file in the right folder → add a line to `CHANGELOG.md` (before / now / removed / why) → bump `VERSION` → one commit → tag `vX.Y.Z` → push.
+1. **GitHub:** save the file in the right folder → add a line to `CHANGELOG.md` (before / now / removed / why) → bump `VERSION` → one commit titled `vX.Y.Z: <what>` → push.
 2. **Local folder:** copy the changed files to `D:\ABD Innovations\Adygeeks\` (same paths), and save a full snapshot zip in `D:\ABD Innovations\Adygeeks\_versions\Adytech_vX.Y.Z_YYYY-MM-DD.zip`.
 3. **Google Drive:** in *Adytech (Adygeeks) – Project › Versions*, create a new folder `vX.Y.Z – YYYY-MM-DD` with Google Docs/Sheets copies of the new or changed files, and update the Drive index doc as a **new dated copy**.
 4. **Chat log:** add one row to `chats/CHAT-LOG.md` for the chat in which the work was done.
@@ -94,4 +95,15 @@ Large media (video, raw recordings, thumbnail PNGs) go only to Drive and the loc
 
 - **Simple:** open `CHANGELOG.md` and search the file name.
 - **Exact old wording:** on GitHub open the file → *History* → pick a date → *View file*.
-- **A whole old version:** GitHub → *Tags* → `vX.Y.Z` → *Browse files*, or open the zip in `_versions/`, or the Drive folder of that version.
+- **A whole old version:** open the zip in `_versions/` on your PC, or the Drive folder `Versions › vX.Y.Z`, or on GitHub open *Commits* → the `vX.Y.Z:` commit → *Browse files*.
+
+### Adding tags yourself (optional, Intermediate)
+With [Git for Windows](https://git-scm.com/download/win) installed, open *Git Bash* in any folder and paste:
+```bash
+git clone https://github.com/MrAdithya26/Adytech.git
+cd Adytech
+git tag v0.1.0 fde3053
+git tag v0.2.0 $(git log --format=%h --grep="^v0.2.0:" -1)
+git push origin --tags
+```
+After that, *Tags* on the GitHub page lists every version.

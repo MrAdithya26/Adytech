@@ -8,7 +8,7 @@ Every change, newest first, in plain English. Nothing is deleted; old versions s
 
 - **Why:** Adithya asked that all Adytech data – past chats, future chats, plans, documents, apps, repos – be kept in three places (PC folder, Google Drive, GitHub), with every version clearly stored and easy to follow.
 - **New:** `docs/STORAGE-AND-VERSIONING.md` – the three places, version numbers (vMAJOR.MINOR.PATCH), the update routine, no-delete rule, file naming, folder layout, how to find old versions.
-- **New:** `VERSION` (0.2.0). Git tags added: `v0.1.0` on commit fde3053 (31 Oct plan), `v0.2.0` on this commit.
+- **New:** `VERSION` (0.2.0). Versions are marked by commits titled `vX.Y.Z: …` (v0.1.0 = commit fde3053). Pushing git tags is blocked from Claude's cloud session; the command to add them from the PC is in `docs/STORAGE-AND-VERSIONING.md` §7.
 - **New:** `chats/CHAT-LOG.md` – the 31 Oct and 2 Nov chats and this one, with links and where their output is stored.
 - **New:** `research/2026-11-02_github-free-software-guide_v1.md` – copy of the 2 Nov Claude Doc "28 Free Software from GitHub — Organised Guide" (previously only in Claude), plus `research/README.md`.
 - **New:** `apps/README.md`, `archive/README.md` (empty folders ready for use).
